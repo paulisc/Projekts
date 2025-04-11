@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Mēbe</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-
-
+  <link href="autorizācija.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-   <nav>
-     <ul>
-       <ol>  MĒBE©</ol>
-       <ol> <a href="akcija.html">AKCIJA</a></ol>
-       <ol> <a href="Galerija.html">MĒBELES</a></ol>
-       <ol><a href="info.html"> PAR MUMS</a></ol>
-       <ol><a href="kontakti.html">KONTAKTI</a></ol>
-       <ol> <a href="autorizācija.html">IEIET/REĢISTRĒTIES</a></ol>
+  <nav>
+    <div class="nav-container">
+      <img src="Mēbe.png" alt="Logo" class="logo">
+      <ul>
+        <li><a href="akcija.html">AKCIJAS</a></li>
+        <li><a href="Galerija.html">MĒBELES</a></li>
+        <li><a href="kontakti.html">KONTAKTI</a></li>
+        <li><a href="info.html">INFO</a></li>
+        <li><a href="autorizācija.html" class="login-btn">IEIET/REĢISTRĒTIES</a></li>
+        <li><a href="#" class="cart-btn">SALABOSIM</a></li>
+      </ul>
+    </div>
+  </nav>
 
-
-     </ul>
-   </nav>
-
-  <a href='index.html'> ATPAKAL </a>
-
-
-   <center><h1>
-    IEIET/REĢISTRĒTIES
-  </h1>
-  <form>
-
-  <br><label for="epasts"></label> 
-  <br><input type = "email" name = "epasts" id = "epasts" size="30"
-        placeholder="E-pasts">
-    
-    <br><label for="parole"> </label>
-    <br><input type="text" name="teksts" id="teksts" size="30" placeholder="Parole" >
-
-    <br><label for = "submits"></label>
-    <br><input type = "submit" name = "submits" id = "submits" size="30"  > </center>
-  </form>
-
-  
-  <script src="script.js"></script>
-
-<content>  </content>
-  
+  <div class="auth-container">
+    <div class="auth-box">
+      <input type="email" placeholder="E-Pasts" class="auth-input">
+      <input type="password" placeholder="Parole" class="auth-input">
+      <button class="auth-button">REĢISTRĒTIES</button>
+    </div>
+  </div>
 </body>
-
 </html>
