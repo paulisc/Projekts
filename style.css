@@ -8,6 +8,7 @@ nav {
   background-color: white;
   padding: 15px 0;
   width: 100%;
+  border-radius:25px;
 }
 
 div {
@@ -35,4 +36,42 @@ ul {
 ol {
   align-items: center;
   flex-direction: row;
+}
+
+.logo {
+  height: 40px;
+  border-radius: 20px;
+}
+
+.augsupogas{
+  text-decoration: none;
+  color:#e90d2c;
+  font-size: 25px;
+  text-align:center;
+}
+
+.augsupogas:hover{
+  color:black
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.logo {
+  height: 40px;
+  border-radius: 20px;
+}
+
+.salabosim {
+  background-color: #e90d2c;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+
 }

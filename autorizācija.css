@@ -1,5 +1,5 @@
 
-.auth-container {
+.blok {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
   background-color: #e90d2c;
 }
 
-.auth-box {
+.dati {
   background-color: white;
   padding: 40px;
   border-radius: 10px;
@@ -19,7 +19,7 @@
   margin: 20px;
 }
 
-.auth-input {
+.input {
   width: 100%;
   padding: 15px;
   border: none;
@@ -29,11 +29,11 @@
   font-size: 16px;
 }
 
-.auth-input::placeholder {
+.input::placeholder {
   color: white;
 }
 
-.auth-button {
+.poga {
   width: 100%;
   padding: 15px;
   border: 2px solid #e90d2c;
@@ -45,7 +45,7 @@
   font-weight: bold;
 }
 
-.auth-button:hover {
+.poga:hover {
   background-color: #e90d2c;
   color: white;
 }
@@ -53,21 +53,18 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 0 20px;
+  border-radius: 20px;
 }
 
 .logo {
   height: 40px;
+  border-radius: 20px;
 }
 
-.login-btn, .cart-btn {
-  padding: 8px 16px;
+.login {
+
   border-radius: 20px;
   text-decoration: none;
 }
 
-.cart-btn {
-  background-color: #e90d2c;
-  color: white;
-}
