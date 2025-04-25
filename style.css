@@ -75,3 +75,23 @@ ol {
   text-decoration: none;
 
 }
+
+.infotext {
+  background-color: white;
+color: #e90d2c;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  display:flex;
+}
+
+.mebelespoga{
+   align-items: center;
+  text-decoration: none;
+  cursor:pointer;
+  background-color: white;
+color: #e90d2c;
+  padding:20px;
+  border-radius:20px;
+}
